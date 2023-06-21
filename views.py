@@ -1,5 +1,23 @@
 from django.shortcuts import render, redirect
 from yoga.models import Email, UserDetails
+import json
+from django.http import JsonResponse
+
+def pwarrior(request):
+    if request.method == 'POST':
+        image_data = request.POST.get('image_data')
+
+        # Process the image data and make predictions
+
+        # Dummy predictions for demonstration purposes
+        predictions = [
+            {'className': 'Label 1', 'probability': 0.8},
+            {'className': 'Label 2', 'probability': 0.2},
+        ]
+
+        return JsonResponse({'predictions': predictions})
+
+    return JsonResponse({'error': 'Invalid request method'})
 
 
 def home(request):
@@ -42,11 +60,6 @@ def details(request):
 
     return render(request, 'details.html')
 
-
-
-
-
-
 def getstarted(request):
     email = request.session.get('email')
     try:
@@ -88,19 +101,15 @@ def oday2(request):
 
 def treepose(request):
     return render(request, 'treepose.html')
-def bow(request):
-    return render(request, 'bow.html')
-def chair(request):
-    return render(request, 'chair.html')
-def cobra(request):
-    return render(request, 'cobra.html')
+def easy(request):
+    return render(request, 'easy.html')
 def diamond(request):
     return render(request, 'diamond.html')
-def goddess(request):
+def goddess(request):    
     return render(request, 'goddess.html')
-def plank(request):
-    return render(request, 'plank.html')
 def triangle(request):
     return render(request, 'triangle.html')
 def warrior(request):
     return render(request, 'warrior.html')
+def End(request):
+    return render(request, 'End.html')
