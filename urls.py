@@ -19,13 +19,14 @@ urlpatterns = [
     path('oday1/', views.oday1,name='oday1'),
     path('oday2/', views.oday2,name='oday2'),
     path('treepose/', views.treepose,name='treepose'),
-    path('bow/', views.bow,name='bow'),
-    path('chair/', views.chair,name='chair'),
-    path('cobra/', views.cobra,name='cobra'),
+    path('easy/', views.easy,name='easy'),   
     path('diamond/', views.diamond,name='diamond'),
-    path('goddess/', views.goddess,name='goddess'),
-    path('plank/', views.plank,name='plank'),
+    path('goddess/', views.goddess,name='goddess'),    
     path('triangle/', views.triangle,name='triangle'),
     path('warrior/', views.warrior,name='warrior'),
+    path('End/', views.End,name='Emd'),
+
     
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
