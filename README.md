@@ -1,5 +1,5 @@
 # Yogasage
-##INTRODUCTION : The fusion of yoga and technology has revolutionized the way people practice yoga,
+## INTRODUCTION : The fusion of yoga and technology has revolutionized the way people practice yoga,
 making it more accessible and personalized than ever before. Virtual yoga trainers,
 aided by technological advancements, have paved the way for individuals to seamlessly
 incorporate yoga into their daily routines. Through online platforms and apps, users
@@ -23,7 +23,7 @@ accordingly. Overall, the combination of yoga and technology has created a new e
 accessible and personalized yoga practice, enabling individuals to achieve their fitness
 goals and incorporate yoga into their daily lives with convenience and flexibility.
 
-SCOPE & VISION : The scope and motivation of our AI Yoga Trainer project, which incorporates pose
+## SCOPE & VISION : The scope and motivation of our AI Yoga Trainer project, which incorporates pose
 accuracy estimation, revolve around revolutionizing the way people practice yoga by
 
 leveraging advanced technologies. Our goal is to create a user-friendly platform or ap-
