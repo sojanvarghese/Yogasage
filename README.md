@@ -1,4 +1,4 @@
-# Yogasage
+# YogaSage
 ## INTRODUCTION: 
 The fusion of yoga and technology has revolutionized the way people practice yoga,
 making it more accessible and personalized than ever before. Virtual yoga trainers,
