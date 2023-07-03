@@ -238,16 +238,15 @@
             }
     function speakText(countCorrect,){
               if ('speechSynthesis' in window) {
-              
-              
+                            
               var initialSpeech = new SpeechSynthesisUtterance();
               initialSpeech.text = 'Tree Pose. It stretches and Lengthens your spine.Broadens your collarbones and chest.';
-              initialSpeech.volume = 1; // 0 to 1
-              initialSpeech.rate = 1; // 0.1 to 10
-              initialSpeech.pitch = 0; // 0 to 2
+              initialSpeech.volume = 1; 
+              initialSpeech.rate = 1; 
+              initialSpeech.pitch = 0;
             
               var correctSpeech = new SpeechSynthesisUtterance();
-              correctSpeech.text = 'hey,akash you are doing great. Hold on the pose for few more seconds.';
+              correctSpeech.text = 'hey,{{ name }} you are doing great. Hold on the pose for few more seconds.';
               correctSpeech.volume = 1; // 0 to 1
               correctSpeech.rate = 1; // 0.1 to 10
               correctSpeech.pitch = 0; // 0 to 2
@@ -256,7 +255,7 @@
             
               //doing wrong                  
               var wrongSpeech = new SpeechSynthesisUtterance();
-              wrongSpeech.text = 'hello,akash you are doing it wrong. You need to practice more.';
+              wrongSpeech.text = 'hello,{{ name }} you are doing it wrong. You need to practice more.';
               wrongSpeech.volume = 1; // 0 to 1
               wrongSpeech.rate = 1; // 0.1 to 10
               wrongSpeech.pitch = 0;
@@ -268,20 +267,19 @@
               nextSpeech.rate = 1; // 0.1 to 10
               nextSpeech.pitch = 0;
             
-              // Set the voice
+              
               var voices = speechSynthesis.getVoices();
               correctSpeech.voice = voices[0]; 
-              wrongSpeech.voice = voices[0]; // Set the first voice in the list
+              wrongSpeech.voice = voices[0]; 
               nextSpeech.voice = voices[0];
               initialSpeech.voice = voices[0]; 
-              // Speak the text
+              
               if(k==0)
               {
                 k=1;
                 speechSynthesis.speak(initialSpeech);
                 setTimeout(function() {
-                        }, 5000);
-               
+                        }, 5000);              
               } 
               if(countCorrect==25)
               {
