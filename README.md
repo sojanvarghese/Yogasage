@@ -1,5 +1,5 @@
 # Yogasage
-INTRODUCTION : The fusion of yoga and technology has revolutionized the way people practice yoga,
+##INTRODUCTION : The fusion of yoga and technology has revolutionized the way people practice yoga,
 making it more accessible and personalized than ever before. Virtual yoga trainers,
 aided by technological advancements, have paved the way for individuals to seamlessly
 incorporate yoga into their daily routines. Through online platforms and apps, users
