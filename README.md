@@ -64,28 +64,28 @@ Making the platform and resources available to a wide range of users.
 
 ## MODULES:
 ### 1.First Module
-_Login_
+_Login_: 
 Handles user authentication and access to the yoga trainer platform. It enables
 users to create accounts, securely log in using credentials, and manage their personal
 information.
 ### 2.Second Module
-_Data Collection_
+_Data Collection_: 
 Collecting information such as name,age, gender, height, weight etc.
 ### 3.Third Module
-_BMI Calculation_
+_BMI Calculation_: 
 BMI is a widely used metric to assess body composition and provide an indication
 of overall health. By calculating the BMI, the module helps users understand their
 current fitness level and guides them towards appropriate yoga training programs.
 ### 4.Fourth Module
-_BMI Classification_
+_BMI Classification_: 
 The BMI Classification module categorizes the user’s BMI into predefined ranges
 or categories. These categories may include underweight, normal weight overweight.
 ### 5.Fifth Module
-_Pose Recommendation_
+_Pose Recommendation_: 
 The Pose Recommendation module suggests specific yoga poses based on user’s
 BMI level.This module helps users discover and engage in poses that align with their
 specific needs and aspirations.
 ### 6.Sixth Module
-_Pose Accuracy_
+_Pose Accuracy_: 
 The Pose Accuracy module evaluates the user’s performance and execution of
 yoga poses.
