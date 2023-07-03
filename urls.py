@@ -25,8 +25,7 @@ urlpatterns = [
     path('triangle/', views.triangle,name='triangle'),
     path('warrior/', views.warrior,name='warrior'),
     path('End/', views.End,name='Emd'),
-
-    
+       
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
