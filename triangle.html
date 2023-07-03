@@ -247,7 +247,7 @@
               initialSpeech.pitch = 0; // 0 to 2
             
               var correctSpeech = new SpeechSynthesisUtterance();
-              correctSpeech.text = 'hey,akash you are doing great. Hold on the pose for few more seconds.';
+              correctSpeech.text = 'hey,{{ name }} you are doing great. Hold on the pose for few more seconds.';
               correctSpeech.volume = 1; // 0 to 1
               correctSpeech.rate = 1; // 0.1 to 10
               correctSpeech.pitch = 0; // 0 to 2
@@ -256,7 +256,7 @@
             
               //doing wrong                  
               var wrongSpeech = new SpeechSynthesisUtterance();
-              wrongSpeech.text = 'hello,akash you are doing it wrong. You need to practice more.';
+              wrongSpeech.text = 'hello,{{ name }} you are doing it wrong. You need to practice more.';
               wrongSpeech.volume = 1; // 0 to 1
               wrongSpeech.rate = 1; // 0.1 to 10
               wrongSpeech.pitch = 0;
