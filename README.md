@@ -41,3 +41,23 @@ and effective for individuals. We aim to cater to diverse user needs and prefere
 offering a solution that can be accessed anytime and anywhere. By incorporating pose
 accuracy estimation, users can ensure they are practicing yoga with proper form and
 technique, leading to more effective and safe workouts.
+
+## PROPOSED SYSTEM:
+The proposed system for the project is an AI-powered automated yoga training website
+The website aims to address the need for personalized and effective yoga training by
+utilizing AI technology to detect and assess the accuracy of yoga poses performed by
+users.
+### 1. Pose Accuracy Estimation
+The project incorporates advanced algorithms to accurately estimate the align-
+ment, balance, and form of yoga poses, ensuring users practice with precision and
+effectiveness..
+### 2. Real-time Feedback
+The AI Yoga Trainer provides immediate feedback and guidance to users during
+their yoga sessions, helping them correct their posture and technique for optimal re-
+sults and safety..
+### 3. User-Friendly Interface
+The project aims to create a user-friendly interface that allows individuals to
+easily navigate and access the AI Yoga Trainer, making it accessible and intuitive for
+users of all levels of experience.
+### 4. Availability and accessibility
+Making the platform and resources available to a wide range of users.
