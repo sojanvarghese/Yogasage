@@ -8,16 +8,12 @@ can access a vast array of yoga classes, tailored to their specific needs and pr
 
 These trainers provide interactive video tutorials, personalized feedback, and modifi-
 cations, ensuring proper form and technique. Technological advancements have also
-
 enhanced the tracking and monitoring capabilities of yoga practice, allowing users to
 track vital signs, heart rate, calories burned, and overall progress. The integration
-
 of technology has fostered a sense of community among practitioners, enabling indi-
 viduals to connect with fellow yogis, join virtual classes, and participate in challenges
-
 and discussions. This social aspect encourages support, motivation, and the shar-
 ing of experiences, regardless of geographical constraints or physical limitations. The
-
 accessibility provided by virtual yoga trainers allows people with busy schedules or
 specific circumstances to easily access diverse yoga options and tailor their practice
 accordingly. Overall, the combination of yoga and technology has created a new era of
@@ -27,7 +23,6 @@ goals and incorporate yoga into their daily lives with convenience and flexibili
 ## SCOPE & VISION: 
 The scope and motivation of our AI Yoga Trainer project, which incorporates pose
 accuracy estimation, revolve around revolutionizing the way people practice yoga by
-
 leveraging advanced technologies. Our goal is to create a user-friendly platform or ap-
 plication that provides personalized and interactive virtual yoga training experiences.
 
